@@ -1,0 +1,136 @@
+.goods{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 174px;
+    bottom: 46px;
+    overflow: hidden;
+    display: flex;
+    border-top: rgba(7,17,27,0.1) solid 1px;
+}
+.goods .menu-wrapper{
+    width: 80px;
+    height: 100%;
+    background: #f3f5f7;
+    
+}
+.goods .menu-wrapper>ul{}
+.goods .menu-wrapper>ul>li{
+    width: 80px;
+    height: 54px;
+    border-bottom: rgba(7,17,27,0.1) solid 1px;
+    display: table;
+}
+.goods .menu-wrapper>ul>li.current{
+    color: #000;
+    background: #fff;
+}
+.goods .menu-wrapper>ul>li>span{
+    width: 56px;
+    padding: 0 12px;
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 16px;
+
+}
+.goods .menu-wrapper>ul>li>span>b{
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+    margin-top: 2px;
+}
+.goods .menu-wrapper>ul>li>span>b.decrease{
+     background: url(../../components/goods/decrease_4@2x.png) no-repeat;
+     background-size: 12px 12px;
+}
+.goods .menu-wrapper>ul>li>span>b.discount{
+     background: url(../../components/goods/discount_4@2x.png) no-repeat;
+     background-size: 12px 12px;
+}
+.goods .menu-wrapper>ul>li>span>b.invoice{
+     background: url(../../components/goods/invoice_4@2x.png) no-repeat;
+     background-size: 12px 12px;
+}
+.goods .menu-wrapper>ul>li>span>b.guarantee{
+     background: url(../../components/goods/guarantee_4@2x.png) no-repeat;
+     background-size: 12px 12px;
+}
+.goods .menu-wrapper>ul>li>span>b.special{
+     background: url(../../components/goods/special_4@2x.png) no-repeat;
+     background-size: 12px 12px;
+}
+.goods .good-wrapper{
+    flex-grow: 1;
+   
+}
+.goods .good-wrapper>ul{}
+.goods .good-wrapper>ul>li{
+
+}
+.goods .good-wrapper>ul>li>h1{
+    height: 26px;
+    background: #f3f5f7;
+    line-height: 26px;
+    font-style: 12px;
+    color: rgb(147,153,159);
+    padding-left: 14px;
+    border-left: #d9dde1 solid 2px;
+}
+.goods .good-wrapper>ul>li>ul{}
+.goods .good-wrapper>ul>li>ul>li{
+    vertical-align: top;
+    padding: 18px;
+    display: flex;
+    border-bottom: rgba(7,17,27,0.1) solid 1px;
+    padding-left: 0;
+    margin-left: 18px;
+    position: relative;
+}
+.goods .good-wrapper>ul>li>ul>li>img{
+    display: inline-block;
+    /*margin-left: 18px;*/
+    vertical-align: top;
+    width: 57px;
+    height: 57px;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info>h2{
+    font-size: 14px;
+    color: #07111b;
+    line-height:20px;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info>p{
+    font-size: 10px;
+    color:  rgb(147,153,159);
+    line-height: 20px;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info>p>span{
+    margin-right: 12px;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info .price{}
+.goods .good-wrapper>ul>li>ul>li .food-info .price>strong{
+    font-size: 14px;
+    color: #ff0000;
+    font-weight: 700;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info .price>strong>b{
+    font-size: 10px;
+    font-weight: 700;
+}
+.goods .good-wrapper>ul>li>ul>li .food-info .price>del{
+    font-size: 10px;
+    color:  rgb(147,153,159);
+    font-weight: 700;
+    margin-left: 8px;
+}
+.goods .good-wrapper>ul>li>ul>li .cartcontrol-wrapper{
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+}
